@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Made Evolve Sans EVO";
+  src: local("Made Evolve Sans EVO"), url(./font2/);
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-brand-light: #819b57;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  height: 100%;
+  line-height: 1;
+}
+h1 {
+  font-family: "Made Evolve Sans EVO", sans-serif;
+}
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+ul {
+  list-style-type: none;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1440px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+/* Header */
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header_container {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+.header_menu {
+  margin: 0px 0px 0px 133px;
+  /* }flex-grow: 1;
+    display: flex;
+    align-items: center; */
+}
+.header_logo {
+  font-size: 24px;
+  font-weight: 700px;
+}
+.menu_link {
+  line-height: 24px;
+}
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu_item:not(:last-child) {
+  margin: 0px 21px 0px 0px;
+}
+m
+/* .container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  
+}
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+    flex-grow: 1;
+    display: flex;
+            align-items: center;}
+    /* display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center; */
+
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+/* Button */
+.button-main {
+  padding: 16px 32px;
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-main:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-light);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+.hero-section {
+  display: flex;
+  padding: 272px 0;
+  text-align: left;
+  background-image: url("../image/pawel-czerwinski.png");
+  background-repeat: no-repeat;
+  background-position-x: left 50%;
+
+  /* float: left; */
+}
+.hero-container {
+}
+
+/* Format section */
+.formats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.formats-item {
+  flex-basis: calc((100%-40px) / 3);
+}
+.format-card {
+  padding: 24px;
+}
+.formats-title {
+  margin-bottom: 80px;
+}
+.format-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+/* .format-text {
+  font-size: 14px;
+  font-weight: 300;
+} */
+.hero-title {
+  margin-bottom: 0;
+  color: #000000;
+  /* font-family: DroidSansMono serif; */
+  text-align: center;
+  font-size: 150px;
+  font-weight: 200;
+}
+.header_menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}

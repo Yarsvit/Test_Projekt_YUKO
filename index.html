@@ -4,65 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>TEST PROJECT 'YUKO'</title>
+    <!-- Fonts -->
+    <style type="text/css" media="screen, print">
+      @font-face {
+        font-family: "Made Evolve Sans EVO";
+        src: url("./css/font2/");
+      }
+      body {
+        font-family: "Made Evolve Sans EVO";
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">
+    <div class="wrapper">
+      <header class="header">
+      <div class="header_container _container">
+        <a href class="header_logo">
           <img src="./image/Main_black 1.png" alt="Logo YUKO" />
         </a>
-        <ul>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Видео</a></li>
-          <li><a href="#">Мерч</a></li>
-          <li><a href="#">Музыка</a></li>
-          <li><a href="#">Ивенты</a></li>
-          <li><a href="#">Связь</a></li>
+        <nav class="header_menu menu">
+        <ul class="menu_list">
+          <li class="menu_item"><a href class="menu_link">О нас</a></li>
+          <li class="menu_item"><a href class="menu_link">Видео</a></li>
+          <li class="menu_item"><a href class="menu_link">Мерч</a></li>
+          <li class="menu_item"><a href class="menu_link">Музыка</a></li>
+          <li class="menu_item"><a href class="menu_link">Ивенты</a></li>
+          <li class="menu_item"><a href class="menu_link">Связь</a></li>
         </ul>
-
         <ul class="top-row-nav">
           <li class="lang-top">
             <a href="/" class="">UKR</a> /
             <a href="/ua/" class="active">ENG</a>
           </li>
         </ul>
+        </div>
       </nav>
-      <section>
-        <p>ELECTRO-FOLK</p>
-        <h1>ОЩУТИ ЗВУК</h1>
+    </div>
+      <section class="hero-section">
+        <div class="hero-container">
+          <p>ELECTRO-FOLK</p>
+        <h1 class="hero-title">ОЩУТИ <br> ЗВУК</h1>
         <p>
           Предствь, что ты падаешь с самого высокого водопада в мире и не
           упадёшь никогда.
         </p>
-      </section>
-      <section>
         <img
           src="./image/Group 859.png"
           alt="Значек изображения для воспроизведения сингла"
         />
+       <div>
         <p>Зима(single)</p>
         <p>NEW</p>
-        <img src="./image/Mask Group (1).png" alt="foto1" />
-      </section>
-      <section></section>
-      <section class="pawel-czerwinski">
-        <img
-          src="./image/pawel-czerwinski.png"
-          alt="Фон для источников воспроизведения синглов"
-        />
+      </div>
+      <div class="pawel-czerwinski">
         <img src="./image/soundcloud.png" alt="icon soundcloud" />
         <img src="./image/Group.png" alt="icon aple" />
         <img src="./image/youtube.png" alt="icon youtube" />
-        <!--         
-        <a href="#"
-        ><img src="./image/soundcloud.png" alt="icon soundcloud"
-      /></a>
-
-      <a href="#"><img src="./image/Group.png" alt="icon aple" /></a>
-
-      <a href="#"><img src="./image/youtube.png" alt="icon youtube" /></a> -->
+      </div> 
+        <section class="section" id="formats-section">
+        <img src="./image/Mask Group (1).png" alt="foto1" />
         <img src="./image/Mask Group.png" alt="foto2" />
+      </div>
       </section>
     </header>
     <main>
