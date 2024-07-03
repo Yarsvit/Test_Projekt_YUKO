@@ -1,103 +1,156 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>TEST PROJECT 'YUKO'</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 'YUKO'</title>
     <!-- Fonts -->
-    <style type="text/css" media="screen, print">
-      @font-face {
-        font-family: "Made Evolve Sans EVO";
-        src: url("./css/font2/");
-      }
-      body {
-        font-family: "Made Evolve Sans EVO";
-      }
-    </style>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+      rel="stylesheet"/>
+   
+    <link rel="stylesheet" href="./scss/main.css"/> 
+    <link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
   </head>
+  <!-- BODY -->
   <body>
-    <div class="wrapper">
-      <header class="header">
-      <div class="header_container _container">
-        <a href class="header_logo">
-          <img src="./image/Main_black 1.png" alt="Logo YUKO" />
-        </a>
-        <nav class="header_menu menu">
-        <ul class="menu_list">
-          <li class="menu_item"><a href class="menu_link">О нас</a></li>
-          <li class="menu_item"><a href class="menu_link">Видео</a></li>
-          <li class="menu_item"><a href class="menu_link">Мерч</a></li>
-          <li class="menu_item"><a href class="menu_link">Музыка</a></li>
-          <li class="menu_item"><a href class="menu_link">Ивенты</a></li>
-          <li class="menu_item"><a href class="menu_link">Связь</a></li>
-        </ul>
-        <ul class="top-row-nav">
-          <li class="lang-top">
-            <a href="/" class="">UKR</a> /
-            <a href="/ua/" class="active">ENG</a>
-          </li>
-        </ul>
-        </div>
-      </nav>
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"
+  ></script>
+    <!-- Container Header -->
+  <div class="container">
+  <header class="header">
+    <div class="header_container">
+      <a href class="header_logo">
+        <img src="./image/Main_black 1.png" alt="Logo YUKO" />
+      </a>
+        <nav class="header_menu">
+          <ul class="menu_list">
+            <li class="menu_item"><a href class="menu_link">О нас</a></li>
+            <li class="menu_item"><a href class="menu_link">Видео</a></li>
+            <li class="menu_item"><a href class="menu_link">Мерч</a></li>
+            <li class="menu_item"><a href class="menu_link">Музыка</a></li>
+            <li class="menu_item"><a href class="menu_link">Ивенты</a></li>
+            <li class="menu_item"><a href class="menu_link">Связь</a></li>
+          </ul>
+          <ul class="menu_list menu_link" >
+            <li>
+              <a href="/" class="">UKR</a> /
+              <a href="/ua/" class="">ENG</a>
+            </li>
+          </ul> 
+        </nav>
     </div>
-      <section class="hero-section">
-        <div class="hero-container">
-          <p>ELECTRO-FOLK</p>
-        <h1 class="hero-title">ОЩУТИ <br> ЗВУК</h1>
-        <p>
-          Предствь, что ты падаешь с самого высокого водопада в мире и не
-          упадёшь никогда.
-        </p>
+  </header>
+  <nav class="main_fon">
+   
+      <div >
         <img
-          src="./image/Group 859.png"
-          alt="Значек изображения для воспроизведения сингла"
-        />
-       <div>
-        <p>Зима(single)</p>
-        <p>NEW</p>
+        src="./image/pawel-czerwinski.png"
+        alt="Фон для начальной страници"
+      />
+            
       </div>
-      <div class="pawel-czerwinski">
-        <img src="./image/soundcloud.png" alt="icon soundcloud" />
+      <div class="icon_fon">
+      <img src="./image/soundcloud.png" alt="icon soundcloud" />
         <img src="./image/Group.png" alt="icon aple" />
         <img src="./image/youtube.png" alt="icon youtube" />
-      </div> 
-        <section class="section" id="formats-section">
-        <img src="./image/Mask Group (1).png" alt="foto1" />
-        <img src="./image/Mask Group.png" alt="foto2" />
       </div>
-      </section>
-    </header>
-    <main>
-      <section class="#">
-        <h6>Мы</h6>
-        <h2>познакомились</h2>
+    
+
+</nav>
+
+    <section class="hero-container">
+       <div >
+         <p>ELECTRO-FOLK</p>
+         <h1 class="hero-title">ОЩУТИ <br> ЗВУК</h1>
+         <p>
+          Предствь, что ты падаешь
+        </p>
         <p>
+          с самого высокого водопада
+        </p>
+        <p>
+          в мире и не упадёшь никогда.
+        </p>
+      </div>
+      <div class="singl">
+        
+      <img
+        src="./image/Group 859.png"
+        alt="Значек изображения для воспроизведения сингла"
+      />
+      <p >Зима(single)</p>
+        <p>NEW</p>
+        </div>
+      </section>
+        
+      </section> 
+      <div class="slide_1">
+        <img class="displayed_1" src="./image/MaskGroup.png" alt="foto2" />
+        
+       </div> 
+       <div class="slide_2">
+        <img class="displayed_2"  src="./image/MaskGroup(1).png" alt="foto1"/>
+     </div>
+          
+      
+      <div class="prime">
+             <img src="/image/Group 853.png" alt="Рамка с изображением частей лица">  
+              
+             <div class="prime-block">
+              <h6 class="prime-title">Мы</h6>
+        <h2 class="prime-text">ПОЗНАКОМИЛИСЬ</h2>
+        <p class="prime-text2">
           В 2016 на телешоу "Голос страны, на котором принимали участие. Там
           возникла и идея собраться, и писать "электро - фольк". Текстами
           занималась я, а музыкой Стас, естественно не без меня.
         </p>
-      </section>
+      </div>
+        
+      </div>
+      </main>
+   
       <section class="#">
-        <img src="./image/Group 861.png" alt="Our videos" />
+        <marquee><img src="./image/Group 861.png" alt="Our videos" /></marquee>
+        
       </section>
-      <section class="#">
-        <h2>Видео</h2>
-        <img src="./image/Group 800.png" alt="vektor video" />
-        <img
-          src="./image/Screenshot 2020-04-22 at 16.40 1.png"
-          alt="Руки тянутся к игровым автоматам"
-        />
-        <img
-          src="./image/Screenshot 2020-04-22 at 16.45 1.png"
-          alt="Силует девушки, которая повернулась спиной"
-        />
+     
+      
+       
+    
+      <div class="wrapper"> 
+        <div class="category"><h2>ВИДЕО</h2></div>
+        <div class="slider">
+          <div class="slider__item">
+            <img src="./image/Screenshot 2020-04-22 at 16.40 1.png"
+            alt="Руки тянутся к игровым автоматам"/>
+            <h4>YARUNA</h4>
+          </div>
+          <div class="slider__item">
+            <img src="./image/Screenshot 2020-04-22 at 16.45 1.png"
+            alt="Силует девушки, которая повернулась спиной"/>
+            <h4>DURA</h4>
+          </div>
+          <!-- <div class="slider__item">
+            <img src="#" alt="" />
+            <h4>МАША</h4>
+          </div> -->
+          <!-- <div class="slider__item">
+            <iframe src="#" frameborder="0"></iframe>
+            <h4>МАША</h4>
+          </div> -->
+        </div>
+     
+     
+        
         <img
           src="./image/Group 859.png"
           alt="Значек изображения для воспроизведения видео1"
@@ -106,43 +159,91 @@
           src="./image/Group 859.png"
           alt="Значек изображения для воспроизведения видео2"
         />
-        <h4>Yaruno</h4>
-        <h4>Dura</h4>
-        <h4>Маша</h4>
-        <img src="./image/Rectangle 121.png" alt="Линия-дорожка видео" />
+                 <img src="./image/Rectangle 121.png" alt="Линия-дорожка видео" />
         <img
           src="./image/Rectangle 122.png"
           alt="Линия видео, которое проигралось на времени 0:09"
         />
-        <img src="./image/0_09.png" alt="время воспромщведенного видео" />
+        
+          <img src="./image/0_09.png" alt="время воспромщведенного видео" />
         <img src="./image/3_40.png" alt="общее время видео" />
+      
+
+      <section>
+        <marquee><img src="./image/Group 862.png" alt="Our music" /></marquee>
       </section>
 
-      <section class="#">
-        <img src="./image/Group 862.png" alt="Our music" />
-      </section>
-      <section class="#">
-        <h2>Альбомы</h2>
-        <ul>
-          <li>Kachcy</li>
-          <li>Liuli Liuli</li>
-          <li>Mak</li>
-          <li>Hreblia</li>
-          <li>Vodobioru</li>
-          <li>Dievochki</li>
-          <li>Kin</li>
-          <li>Khorosha</li>
-          <li>Masha</li>
-        </ul>
-        <img src="./image/Group 30.png" alt="Фотографии музыквльных альбомов" />
-        <img src="./image/Group 808.png" alt="Лента вомпроизведения" />
-      </section>
+
+      <div class="category"><h2>АЛЬБОМЫ</h2></div>
+      <div class="slider">
+        <div class="slider__item">
+          <img src="./image/IMG_1165 1.png"
+          alt="Альбом Ditch"/>
+          <ul class="album">
+            <li><a href="#">Kachcy</a></li>
+            <li><a href="#">Liuli</a></li>
+            <li><a href="#">Mak</a></li>
+            <li><a href="#">Hreblia</a></li>
+            <li><a href="#">Vodobioru</a></li>
+            <li><a href="#">Dievochki</a></li>
+            <li><a href="#">Kin</a></li>
+            <li><a href="#">Khorosha</a></li>
+            <li><a href="#">Masha</a></li>
+          </ul>
+          <h4>YARUNA</h4>
+          <h5>9 Songs</h5>
+        </div>
+         
+            
+         
+        
+        <div class="slider__item">
+          <img src="./image/IMG_1166 1.png"
+          alt="Альбом Reditch"/>
+          <h4>DURA</h4>
+          <h5>9 Songs</h5>
+        </div>
+        
+          <div class="slider__item">
+            <img src="./image/IMG_1167 1.png"
+            alt="Альбом Dura"/>
+            <h4>YARUNA</h4>
+            <h5>9 Songs</h5>
+          </div>
+          <div class="slider__item">
+            <img src="./image/IMG_1167 1.png"
+            alt="Альбом Redura"/>
+            <h4>YARUNA</h4>
+            <h5>9 Songs</h5>
+          </div>
+       </div>
+                 
+         <div class="alboom"> 
+          <img src="./image/Group 808.png" alt="Лента вомпроизведения" />
+          </div>
+        
+      
+        
+          
+      
       <section>
-        <img src="./image/Group 863.png" alt="emment omming" />
+        <marquee><img src="./image/Group 863.png" alt="emment omming" /></marquee>
       </section>
-      <section class="#">
-        <h2>Ближайшие ивенты</h2>
-        <img src="./image/Group 800.png" alt="vektor video" />
+    
+    <div class="category"><h2>БЛИЖАЙШИЕ ИВЕНТЫ</h2></div>
+    <div class="slider">
+      <div class="slider__item">
+        <img src="./image/Screenshot 2020-04-22 at 16.40 1.png"
+        alt="Руки тянутся к игровым автоматам"/>
+        <h4>YARUNA</h4>
+      </div>
+      <div class="slider__item">
+        <img src="./image/Screenshot 2020-04-22 at 16.45 1.png"
+        alt="Силует девушки, которая повернулась спиной"/>
+        <h4>DURA</h4>
+      </div>
+        
+      
         <ul>
           <li>19:00</li>
           <li>13 мая</li>
@@ -180,13 +281,22 @@
           <li><a href="#">Купить билет</a></li>
         </ul>
       </section>
-      <section class="#">
-        <h2>НАШ МЕРЧ</h2>
-        <p>
+    </div> 
+    
+    <div class="category"><h2>НАШ МЕРЧ</h2></div>
+     <p>
           Созданные нами вещи легко украсят обыденность и создадут настроение, а
           благодаря натуральной ткани из переработанного сырья мы очищаем мир
           просто надевая футболку.
         </p>
+        <div class="slider">
+      <div class="slider__item">
+        <img src="./image/Screenshot 2020-04-22 at 16.40 1.png"
+        alt="Руки тянутся к игровым автоматам"/>
+        <h4>YARUNA</h4>
+      </div>
+      
+       
         <ul class="#">
           <li class="#">
             <a href="/" class="">мужчинам</a> /
@@ -316,20 +426,24 @@
         </ul>
         <p>800 UAH</p>
       </section>
-      <section>
-        <img src="./image/Group 869.png" alt="message frame" />
-        <h2>НАПИШИ НАМ</h2>
-        <p>Евгений</p>
+    </div>
+    </div>
+    <div class="envelope"><img src="./image/Group 869.png" alt="message frame" />
+      <div class="letter">
+        
+        <div class="category"><h2>НАПИШИ НАМ</h2></div>
+        <p class="messages">Евгений</p>
         <img src="./image/Rectangle 144.png" alt="message line" />
-        <p>TypeYourE-mail@gmail.com</p>
+        <p class="messages">TypeYourE-mail@gmail.com</p>
         <img src="./image/Rectangle 144.png" alt="message line" />
         <p>Сообщение</p>
         <img src="./image/Rectangle 144.png" alt="message line" />
 
         <p><a href="#">Купить билет</a></p>
-        <a href="#">yuko@masterskaya.space</a>
-      </section>
-    </main>
+        <a href="#">yuko@masterskaya.space</a></div>
+      </div>
+    
+    
     <footer>
       <address>
         <ul>
@@ -354,5 +468,16 @@
         </ul>
       </address>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"
+></script>
+<script
+  type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+  <script src="./js/style.js"></script>
+  </div>
   </body>
 </html>
